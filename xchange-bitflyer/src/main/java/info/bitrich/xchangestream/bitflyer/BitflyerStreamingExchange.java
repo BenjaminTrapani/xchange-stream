@@ -47,7 +47,7 @@ public class BitflyerStreamingExchange extends BitflyerExchange implements Strea
     @Override
     public ExchangeSpecification getDefaultExchangeSpecification() {
         ExchangeSpecification spec = super.getDefaultExchangeSpecification();
-        spec.setShouldLoadRemoteMetaData(false);
+        //spec.setShouldLoadRemoteMetaData(false);
         return spec;
     }
 
